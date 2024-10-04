@@ -1,0 +1,130 @@
+/* Estilos generales aplicables a todos los componentes */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .instructionButton {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .instructionButton:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  }
+  
+  .instructions {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007BFF; /* Borde azul */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Fondo claro */
+  }
+  
+  .inputField {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .output {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    word-break: break-all;
+  }
+  
+  /* Estilos específicos para los títulos de los componentes */
+  h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    max-width: 400px; /* Limita el ancho para que se vea bien en pantallas pequeñas */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px;
+    border: 1px solid #ccc; /* Añadir un borde opcional */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo opcional */
+  }
+  
+  .inputField {
+    width: 100%; /* Asegura que el campo de entrada ocupe el 100% del contenedor */
+    padding: 10px;
+    margin: 10px 0; /* Espaciado entre los campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 4px; /* Bordes redondeados para los campos */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between; /* Espacia los botones */
+    width: 100%; /* Asegura que los botones ocupen todo el ancho */
+  }
+  
+  .button {
+    padding: 10px 20px; /* Espaciado en los botones */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados para los botones */
+    background-color: #007bff; /* Color de fondo de los botones */
+    color: white; /* Color del texto de los botones */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+  }
+  
+  .output {
+    margin-top: 20px; /* Espaciado para el texto de salida */
+  }
+  

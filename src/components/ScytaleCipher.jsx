@@ -10,7 +10,7 @@ const ScytaleCipher = () => {
 
   const scytaleCipher = (str, rails) => {
     const length = Math.ceil(str.length / rails);
-    const paddedMessage = str.padEnd(length * rails, ' '); // Rellenar con espacios si es necesario
+    const paddedMessage = str.padEnd(length * rails, ' '); 
     const result = [];
 
     for (let i = 0; i < length; i++) {

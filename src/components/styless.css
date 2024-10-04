@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.errorMessage {
+    color: red; /* Cambia el color del texto de error */
+    font-weight: bold; /* Hace que el texto sea más prominente */
+    margin-top: 10px; /* Espacio entre el mensaje de error y el formulario */
+  }
+  .instructionButton {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .instructionButton:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+  }
+  
+  .instructions {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007BFF; /* Borde azul */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Fondo claro */
+  }
+  
+
+.inputField {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Tamaño de fuente reducido para ahorrar espacio */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px; /* Margen pequeño entre los botones y los campos */
+}
+
+.button {
+    padding: 8px 16px; /* Reducción del padding para hacer los botones más pequeños */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px; /* Tamaño de texto reducido */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    font-size: 18px; /* Tamaño reducido del encabezado */
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.output {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+    word-break: break-all;
+}
+.instructionButton {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .instructionButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .instructions {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+
+  
